@@ -18,11 +18,13 @@
 
 #define NONE 0
 
-/ {
+{
   &lt {
     quick_tap_ms = <10>;
   };
+}
 
+/ {
   behaviors {
     hm: homerow_mods {
       compatible = "zmk,behavior-hold-tap";
