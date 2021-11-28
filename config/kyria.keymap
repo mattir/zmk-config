@@ -18,7 +18,7 @@
 
 #define NONE 0
 
-{
+/ {
   &lt {
     quick_tap_ms = <10>;
   };
