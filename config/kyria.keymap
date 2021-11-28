@@ -27,10 +27,6 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-
-    &lt {
-      quick_tap_ms = <20>;
-    };
   };
 
   keymap {
