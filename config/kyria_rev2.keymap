@@ -16,11 +16,11 @@
 #define BLUTH 5
 
 &mt {
-  quick-tap-ms = <100>;
+  quick-tap-ms = <200>;
 };
 
 &lt {
-  quick-tap-ms = <100>;
+  quick-tap-ms = <200>;
 };
 
 / {
