@@ -15,6 +15,14 @@
 #define FUNCS 4
 #define BLUTH 5
 
+&mt {
+  quick-tap-ms = <100>;
+};
+
+&lt {
+  quick-tap-ms = <100>;
+}
+
 / {
   keymap {
     compatible = "zmk,keymap";
