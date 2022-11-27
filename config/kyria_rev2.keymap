@@ -31,10 +31,10 @@
 
     numbers_layer {
       bindings = <
-  &none &none    &none    &none    &none     &none                                &kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT  &none
-  &none &kp LALT &kp LCTL &kp LGUI &kp LSHFT &none                                &kp EQUAL &kp N4 &kp N5 &kp N6 &kp COMMA &none
-  &none &none    &none    &none    &none     &none &none &none        &none &none &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BSLH  &none
-                               &none &trans &none &trans &none        &kp MINUS &kp N0 &kp DOT &none &none
+  &none &none    &none     &none    &none     &none                                &kp LBKT  &kp N7 &kp N8 &kp N9 &kp RBKT  &none
+  &none &kp LALT &kp LCTRL &kp LGUI &kp LSHFT &none                                &kp EQUAL &kp N4 &kp N5 &kp N6 &kp COMMA &none
+  &none &none    &none     &none    &none     &none &none &none        &none &none &kp GRAVE &kp N1 &kp N2 &kp N3 &kp BSLH  &none
+                                &none &trans &none &trans &none        &kp MINUS &kp N0 &kp DOT &none &none
       >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -42,10 +42,10 @@
 
     symbols_layer {
       bindings = <
-  &none &none    &none    &none    &none     &none                                &kp LBRC  &kp AMPS &kp ASTRK &kp DQT    &kp RBRC &none
-  &none &kp LALT &kp LCTL &kp LGUI &kp LSHFT &none                                &kp PLUS  &kp DLLR &kp PRCNT &kp CARRET &kp SQT  &none
-  &none &none    &none    &none    &none     &none &none &none        &none &none &kp TILDE &kp EXCL &kp AT    &kp POUND  &kp PIPE &none
-                               &none &trans &none &none &trans        &kp UNDER &kp LPAR &kp RPAR &none &none
+  &none &none    &none     &none    &none     &none                                &kp LBRC  &kp AMPS &kp ASTRK &kp DQT    &kp RBRC &none
+  &none &kp LALT &kp LCTRL &kp LGUI &kp LSHFT &none                                &kp PLUS  &kp DLLR &kp PRCNT &kp CARRET &kp SQT  &none
+  &none &none    &none     &none    &none     &none &none &none        &none &none &kp TILDE &kp EXCL &kp AT    &kp POUND  &kp PIPE &none
+                                &none &trans &none &none &trans        &kp UNDER &kp LPAR &kp RPAR &none &none
       >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -56,7 +56,7 @@
   &none &kp INS  &none    &kp UP   &none     &kp PG_UP                            &none &none     &none    &none     &none    &none
   &none &kp CAPS &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN                            &none &kp RSHFT &kp RGUI &kp RCTRL &kp RALT &none
   &none &none    &kp HOME &none    &kp END   &none &none &none        &none &none &none &none     &none    &none     &none    &none
-                        &none &trans &kp DEL &kp BSPC &kp TAB        &none &trans &none &none &none
+                         &none &trans &kp DEL &kp BSPC &kp TAB        &none &trans &none &none &none
       >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
